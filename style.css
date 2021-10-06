@@ -44,7 +44,6 @@ header {
 .header-nav nav {
     width: 40%;
     display: flex;
-    border: 1px green dashed;
 }
 
 .header-nav nav li {
