@@ -99,6 +99,7 @@ main section {
     right:0;
     padding: 75px 0 75px 75px;
     z-index: 1;
+    background-color: #fff;
 }
 
 .org-info-title {
