@@ -88,6 +88,7 @@ header {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 80px;
     text-transform: uppercase;
+    border: 1px #FFF solid;
 }
 
 /* Main */
