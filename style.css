@@ -19,6 +19,7 @@ li {
 a {
     text-decoration: none;
     color: #FFF;
+    border: 1px red dashed;
 }
 
 a::after {
@@ -121,6 +122,10 @@ header {
     display: none;
     height: 0%;
     margin-top: 100px;
+}
+
+.hamburger-menu a::after {
+    margin: 0;
 }
 
 .menu-clicked {
