@@ -93,6 +93,7 @@ header {
     background-color: #fff;
     margin: 6px 0;
     border-radius: 3px;
+    transition: .3s;
 }
 
 .clicked span:nth-child(1) {
@@ -105,6 +106,37 @@ header {
 
 .clicked span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -5px);
+}
+
+.header-click {
+    background: #000;
+}
+
+.header-click .header-text {
+    display: none;
+}
+
+.hamburger-menu {
+    display: none;
+    height: 0%;
+    margin-top: 100px;
+}
+
+.menu-clicked {
+    display: block;
+}
+
+.hamburger-menu ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger-menu li{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;   
+    text-transform: uppercase;
 }
 
 .header-text {
@@ -324,6 +356,10 @@ footer {
     .btn-2 {
         display: none;
     }
+
+    .hamburger-menu {
+        display: none;
+    }
 }
 
 @media (max-width: 375px) {
@@ -338,7 +374,6 @@ footer {
     }
 
     .header-nav {
-        border: 1px red dashed;
         justify-content: space-between;
     }
 
