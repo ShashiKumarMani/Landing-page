@@ -278,3 +278,32 @@ footer {
 .copyright {
     color: hsl(0, 0%, 55%);
 }
+
+/* Mobile */
+
+@media (max-width: 375px) {
+
+    header {
+        min-width: 375px;
+    }
+
+    .header-main {
+        width: 90%;
+        height: 90%;
+    }
+
+    .header-nav nav {
+        display: none;
+    }
+    
+    .logo-text {
+        width: 50%;
+        font-size: 1.5rem;
+    }
+
+    .header-text {
+        width: 90%;
+        height: 40%;
+        font-size: 35px;
+    }
+}
