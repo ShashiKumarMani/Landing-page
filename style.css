@@ -19,7 +19,7 @@ li {
 a {
     text-decoration: none;
     color: #FFF;
-    border: 1px red dashed;
+    /* border: 1px red dashed; */
 }
 
 a::after {
